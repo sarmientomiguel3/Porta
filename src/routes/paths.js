@@ -32,8 +32,8 @@ export const PATH_PAGE = {
   page404: '/404',
   page500: '/500',
   components: '/components',
-  components: '/Presentacion',
-  components: '/Proyectos',
+  presentacion: '/Presentacion',
+  proyectos: '/Proyectos',
 };
 
 export const PATH_DASHBOARD = {

@@ -1,12 +1,14 @@
 {
-  "name": "@minimal/minimal-kit-react",
-  "author": "Minimals UI",
+  "homepage": "https://github.com/sarmientomiguel3/Porta",
+  "name": "Miguel Sarmiento FullStack",
+  "author": "Miguel Sarmiento",
   "version": "4.2.0",
   "description": "Javascript Version",
   "private": true,
   "scripts": {
     "start": "export PORT=3005 && react-scripts start",
     "build": "react-scripts build",
+    "buildgit": "gh-pages -d build",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --fix --ext .js,.jsx .",
@@ -116,6 +118,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.3",
     "typescript": "^4.9.4"
   },
